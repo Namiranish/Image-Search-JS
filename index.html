@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Image Search App</h1>
+        <button id="dark-mode-button" class="dark-mode-btn">🌙</button>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <form id="search-form">
+                <input type="text" id="search-input" class="search-input" placeholder="Search images...">
+                <button type="submit" class="search-button"><i class="fa-solid fa-magnifying-glass"></i></i></button>
+            </form>
+        </div>
+        <div id="images-container" class="images-container"></div>
+        <button id="load-more-button" class="load-more-btn">Load More</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
